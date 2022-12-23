@@ -1,0 +1,6 @@
+*.json
+pyvenv.cfg
+bin/
+include/
+lib/
+lib64/
