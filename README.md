@@ -56,6 +56,9 @@ pip3 install -r requirements.txt
 
 # invoke report generator
 ./CalculateAnalyticsPageGrowth.py3 <jsonKeyFile> <analyticsViewID>
+
+# width of report window can be changed (default=30 days)
+./CalculateAnalyticsPageGrowth.py3 <jsonKeyFile> <analyticsViewID> -d 14
 ```
 
 
