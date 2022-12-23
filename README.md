@@ -1,32 +1,53 @@
 # Generates growth/trend report on page count from Google Analytics
 
-https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py
+## Prerequisites
 
+* Google GCP Project
+  * Project enabled for Analytics API
+  * Google Service account created, download json key for auth later
+* Google Analytics
+  * Property tracking your web site
+  * View belonging to Property, copy down viewID to be used for reporting later
+  * Google Service account added to 'Account access management' in 'Viewer' role
+
+
+https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py
 console.cloud.google.com, create project
 
 enable API from link, https://console.cloud.google.com/start/api?id=analyticsreporting.googleapis.com&credential=client_key
 
-
 create GSA 'analytics1' and download json key
 
-create local python3 project
-mkdir google-analytics-py3-report-export
-cd $_
-python3 -
+## Run report against Google Analytics
+
+### Prepare environment
+
+```
+# make sure python3 venv is installed
 sudo -s apt-get install python3-venv
+
+git clone https://github.com/fabianlee/google-analytics-py3-page-growth-trend-report.git
+cd google-analytics-py3-page-growth-trend-report
+
+# create virtual env for isolated libs
 python3 -m venv .
 source bin/activate
-pip3 install --upgrade google-api-python-client
-pip3 install --upgrade oauth2client
 
-move json key into directory
+# install module dependencies into virtual env
+pip3 install -r requirements.txt
+```
 
-# get source code
-wget https://developers.google.com/static/analytics/resources/samples/service-py-v4.txt -O HelloAnalytics.py3
-# add shebang for execution, make executable
-sed -i -e '1i #!/usr/bin/env python' HelloAnalytics.py3
-chmod +x *.py3
+### Move json key into directory
 
+### Invoke Script
+
+```
+./CalculateAnalyticsPageGrowth.py3 <jsonKeyFile> <analyticsViewID>
+```
+
+
+
+## REFERENCES
 
 ==shows service account method of auth
 https://itheo.tech/get-google-analytics-pageviews-with-python
