@@ -21,12 +21,13 @@ This can help you fine-tune your content, and invest in content that is showing 
   * Google Service account added to 'Account access management' in 'Viewer' role
 
 
+Follow these instructions to create GCP project
 https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py
-console.cloud.google.com, create project
 
-enable API from link, https://console.cloud.google.com/start/api?id=analyticsreporting.googleapis.com&credential=client_key
+Enable API from link
+https://console.cloud.google.com/start/api?id=analyticsreporting.googleapis.com&credential=client_key
 
-create GSA 'analytics1' and download json key
+create GSA 'analytics1' and download json key for auth by report.
 
 ## Run report against Google Analytics
 
@@ -34,7 +35,8 @@ create GSA 'analytics1' and download json key
 
 ```
 # make sure python3 venv is installed
-sudo -s apt-get install python3-venv
+sudo apt-get update
+sudo apt-get install software-properties-common python3 python3-dev python3-pip python3-venv curl git -y
 
 git clone https://github.com/fabianlee/google-analytics-py3-page-growth-trend-report.git
 cd google-analytics-py3-page-growth-trend-report
