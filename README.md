@@ -1,6 +1,6 @@
 # Generates pagecount growth/trend report from Google Analytics
 
-(Google Analytics)[https://analytics.google.com/] makes it easy to view your page counts for an arbitrary date range, but what is more difficult is comparing these results to an older window of data to see what pages have grown in terms of absolute numbers but also trends of "up-and-comers".
+[Google Analytics](https://analytics.google.com/) makes it easy to view your page counts for an arbitrary date range, but what is more difficult is comparing these results to an older window of data to see what pages have grown in terms of absolute numbers but also trends of "up-and-comers".
 
 
 ## Prerequisites
