@@ -1,6 +1,13 @@
 # Generates pagecount growth/trend report from Google Analytics
 
-[Google Analytics](https://analytics.google.com/) makes it easy to view your page counts for an arbitrary date range, but what is more difficult is comparing these results to an older window of data to see what pages have grown in terms of absolute numbers but also trends of "up-and-comers".
+[Google Analytics](https://analytics.google.com/) makes it easy to view your page counts for an arbitrary date range, but what is more difficult is comparing these results to an older window of data to see:
+
+* Which pages have grown/lost in absolute counts
+* Which pages are trending growth/loss in terms of their percent (up-and-comers)
+
+The [CalculateAnalyticsPageGrowth.py3](CalculateAnalyticsPageGrowth.py3) script gathers the latest window of data (default=30 days), and compares it to the 30 days preceding it to show you which pages have grown/lost in absolute terms as well as percent.
+
+This can help you fine-tune your content, and invest in content that is showing the largest potential.
 
 
 ## Prerequisites
