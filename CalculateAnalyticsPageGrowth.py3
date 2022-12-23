@@ -2,8 +2,8 @@
 """
  Calculates growth and trends for unique page counts from Analytics Reporting API V4.
  
- Originally from:
- https://developers.google.com/static/analytics/resources/samples/service-py-v4.txt -O HelloAnalytics.py3
+ Source originally derived from:
+ https://developers.google.com/static/analytics/resources/samples/service-py-v4.txt
 """
 
 import sys
