@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
  Calculates growth and trends for unique page counts from Analytics Reporting API V4.
  
