@@ -49,11 +49,12 @@ source bin/activate
 pip3 install -r requirements.txt
 ```
 
-### Move json key into directory
-
 ### Invoke Script
 
 ```
+# place json key into this directory
+
+# invoke report generator
 ./CalculateAnalyticsPageGrowth.py3 <jsonKeyFile> <analyticsViewID>
 ```
 
