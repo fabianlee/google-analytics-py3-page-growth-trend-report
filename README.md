@@ -1,6 +1,8 @@
 # Page growth/trend report from Google Analytics Reporting API v4 and UA View
 
-# NOTE: The Google Analytics UA View will be turned off June 2023, use my other github project which uses the newer GA4 model and Analytics Data API v1, [ga4-py3-page-growth-trend](https://github.com/fabianlee/ga4-py3-page-growth-trend).
+=============================================
+# NOTE: The Google Analytics UA View will be turned off June 2023, use my other github project which uses the newer GA4 model and Analytics Data API v1, [ga4-py3-page-growth-trend](https://github.com/fabianlee/ga4-py3-page-growth-trend)
+=============================================
 
 [Google Analytics](https://analytics.google.com/) makes it easy to view your page counts for an arbitrary date range, but what is more difficult is comparing these results to an older window of data to see:
 
