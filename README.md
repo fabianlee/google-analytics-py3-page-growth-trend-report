@@ -18,22 +18,15 @@ The newer [Google Analytics Data API v1](https://developers.google.com/analytics
 
 ## Prerequisites
 
-* Google GCP Project
-  * Project enabled for Analytics API
-  * Google Service account created, download json key for auth later
+* Google GCP
+  * [Create GCP Project](https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py)
+  * [Enable project for Analytics API](https://console.cloud.google.com/start/api?id=analyticsreporting.googleapis.com&credential=client_key)
+  * Create Google Service Account (GSA), download json key for auth later
 * Google Analytics
-  * Property tracking your web site
-  * View belonging to Property, copy down viewID to be used for reporting later
-  * Google Service account added to 'Account access management' in 'Viewer' role
+  * Link Google Analytics to your web site, decorate site pages with tracker
+  * Admin > "Property" > View Settings, copy down your View ID for reporting later
+  * Admin > Account Access Management, add GSA in 'Viewer' role so it can query data
 
-
-Follow these instructions to create GCP project
-https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py
-
-Enable API from link
-https://console.cloud.google.com/start/api?id=analyticsreporting.googleapis.com&credential=client_key
-
-create GSA 'analytics1' and download json key for auth by report.
 
 ## Run report against Google Analytics
 
