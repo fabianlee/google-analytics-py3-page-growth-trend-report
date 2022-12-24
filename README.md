@@ -15,7 +15,7 @@ This script uses the deprecated [Google Analytics Reporting API v4](https://deve
 
 The newer [Google Analytics Data API v1](https://developers.google.com/analytics/devguides/reporting/data/v1) (GA4 using propertyId), is the way forward for generating Google Analytics reports.  This can be done via the Python [Analytics Data API](https://googleapis.dev/python/analyticsdata/latest/index.html)
 
-If you want to use the newer GA4 model, then see my [ga4-py3-page-growth-trend](https://github.com/fabianlee/ga4-py3-page-growth-trend) available on github.
+If you would rather use the newer GA4 model, then see my other github project, [ga4-py3-page-growth-trend](https://github.com/fabianlee/ga4-py3-page-growth-trend).
 
 
 ## Prerequisites
