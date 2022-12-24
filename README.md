@@ -1,4 +1,4 @@
-# Generates pagecount growth/trend report from Google Analytics
+# Generates pagecount growth/trend report from Google Analytics Reporting API v4
 
 [Google Analytics](https://analytics.google.com/) makes it easy to view your page counts for an arbitrary date range, but what is more difficult is comparing these results to an older window of data to see:
 
@@ -8,6 +8,10 @@
 The [CalculateAnalyticsPageGrowth.py3](CalculateAnalyticsPageGrowth.py3) script gathers the latest window of data (default=30 days), and compares it to the 30 days preceding it to show you which pages have grown/lost in absolute terms as well as percent.
 
 This can help you fine-tune your content, and invest in content that is showing the largest potential.
+
+This script uses the deprecated [Google Analytics Reporting API v4](https://developers.google.com/analytics/devguides/reporting/core/v4) (UA using viewId), which is scheduled to be turned off in June 2023.
+
+The newer [Google Analytics Data API v1](https://developers.google.com/analytics/devguides/reporting/data/v1) (GA4 using propertyId) data source, is the way forward for Google Analytics reports.
 
 
 ## Prerequisites
