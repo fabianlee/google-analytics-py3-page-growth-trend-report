@@ -9,6 +9,8 @@ The [CalculateAnalyticsPageGrowth.py3](CalculateAnalyticsPageGrowth.py3) script 
 
 This can help you fine-tune your content, and invest in content that is showing the largest potential.
 
+# Google Analytics UA turned off June 2023
+
 This script uses the deprecated [Google Analytics Reporting API v4](https://developers.google.com/analytics/devguides/reporting/core/v4) (UA using viewId), which is scheduled to be turned off in June 2023.
 
 The newer [Google Analytics Data API v1](https://developers.google.com/analytics/devguides/reporting/data/v1) (GA4 using propertyId) data source, is the way forward for Google Analytics reports.
