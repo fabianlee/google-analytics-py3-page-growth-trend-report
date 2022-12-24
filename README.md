@@ -13,7 +13,7 @@ This can help you fine-tune your content, and invest in content that is showing 
 
 This script uses the deprecated [Google Analytics Reporting API v4](https://developers.google.com/analytics/devguides/reporting/core/v4) (UA using viewId), which is scheduled to be turned off in June 2023.
 
-The newer [Google Analytics Data API v1](https://developers.google.com/analytics/devguides/reporting/data/v1) (GA4 using propertyId), is the way forward for Google Analytics reports.
+The newer [Google Analytics Data API v1](https://developers.google.com/analytics/devguides/reporting/data/v1) (GA4 using propertyId), is the way forward for generating Google Analytics reports.  This can be done via the Python [Analytics Data API](https://googleapis.dev/python/analyticsdata/latest/index.html)
 
 
 ## Prerequisites
