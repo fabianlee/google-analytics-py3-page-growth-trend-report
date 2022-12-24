@@ -64,12 +64,7 @@ pip3 install -r requirements.txt
 
 ## REFERENCES
 
-shows service account method of auth
-https://itheo.tech/get-google-analytics-pageviews-with-python
-https://medium.com/@tmmylo1021/extract-google-analytics-data-with-python-221626ed8975
-
-shows expression building for pageviews
-https://www.byperth.com/2017/06/11/google-analytics-api-python/
-
-docs on reporting apiv4
-https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet
+* https://itheo.tech/get-google-analytics-pageviews-with-python
+* https://medium.com/@tmmylo1021/extract-google-analytics-data-with-python-221626ed8975
+* https://www.byperth.com/2017/06/11/google-analytics-api-python/
+* https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet
