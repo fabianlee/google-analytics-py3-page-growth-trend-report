@@ -10,7 +10,7 @@
 #
 # this is how requirements.txt was constructed:
 # pip3 install google-api-python-client
-# pip3 install --upgrade oauth2client
+# pip3 install --upgrade oauth2client|(or is it google-oauth2-tool?!)
 # pip3 freeze | tee requirements.txt
 #
 import sys
