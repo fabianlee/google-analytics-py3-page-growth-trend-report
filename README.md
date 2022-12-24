@@ -19,8 +19,8 @@ The newer [Google Analytics Data API v1](https://developers.google.com/analytics
 ## Prerequisites
 
 * Google GCP
-  * [Create GCP Project](https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py)
-  * [Enable project for Analytics API](https://console.cloud.google.com/start/api?id=analyticsreporting.googleapis.com&credential=client_key)
+  * [Create GCP Project](https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py) using this quickstart
+  * [Enable project for Analytics API](https://console.cloud.google.com/start/api?id=analyticsreporting.googleapis.com&credential=client_key) enable Analytics API for this project using this wizard
   * Create Google Service Account (GSA), download json key for auth later
 * Google Analytics
   * Link Google Analytics to your web site, decorate site pages with tracker
