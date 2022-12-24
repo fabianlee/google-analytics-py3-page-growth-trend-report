@@ -3,5 +3,6 @@ pyvenv.cfg
 bin/
 include/
 lib/
+share/
 # symlinks are considered to be files, not directories
 lib64

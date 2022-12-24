@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
 """
- Calculates growth and trends for unique page counts from Analytics Reporting API V4.
+ Calculates growth and trends for unique page counts from Analytics Reporting API V4 (UA).
+ Google will turn off UA on June 2031, in favor of GA4
  
- Source originally derived from:
- https://developers.google.com/static/analytics/resources/samples/service-py-v4.txt
+ Starter attribution:
+ https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py
 """
 
+#
+# this is how requirements.txt was constructed:
+# pip3 install google-api-python-client
+# pip3 install --upgrade oauth2client
+# pip3 freeze | tee requirements.txt
+#
 import sys
 import traceback
 import argparse
