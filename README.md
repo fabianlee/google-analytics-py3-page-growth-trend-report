@@ -1,4 +1,4 @@
-# Generates pagecount growth/trend report from Google Analytics Reporting API v4
+# Generates pagecount growth/trend report using Google Analytics Reporting API v4
 
 [Google Analytics](https://analytics.google.com/) makes it easy to view your page counts for an arbitrary date range, but what is more difficult is comparing these results to an older window of data to see:
 
