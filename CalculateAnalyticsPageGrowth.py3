@@ -3,7 +3,7 @@
  Calculates growth and trends for unique page counts from Analytics Reporting API V4 (UA).
  Google will turn off UA on June 2031, in favor of GA4
  
- Starter attribution:
+ Starting point attribution:
  https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/service-py
 """
 
