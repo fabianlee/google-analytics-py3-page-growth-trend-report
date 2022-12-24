@@ -5,9 +5,9 @@
 * Which pages have grown/lost in absolute counts
 * Which pages are trending growth/loss in terms of their percent (up-and-comers)
 
-The [CalculateAnalyticsPageGrowth.py3](CalculateAnalyticsPageGrowth.py3) script gathers the latest window of data (default=30 days), and compares it to the 30 days preceding it to show you which pages have grown/lost in absolute terms as well as percent.
+The [CalculateAnalyticsPageGrowth.py3](CalculateAnalyticsPageGrowth.py3) script gathers the latest window of UA data (default=30 days), and compares it to the 30 days preceding it to show you which pages have grown/lost in absolute terms as well as percent.
 
-This can help you fine-tune your content, and invest in content that is showing the largest potential.
+This can help you fine-tune your content creation, and invest in content that is showing the largest potential.
 
 # Google Analytics UA turned off June 2023
 
